@@ -43,9 +43,8 @@
 </template>
 
 <script>
-const base_ip_address = `localhost:${base_port}`;
 const base_port = 8081;
-const base_url = base_ip_address;
+const base_url = `localhost:${base_port}`;
 // let departmentId = localStorage.getItem("departmentId");
 
 import axios from "axios";
